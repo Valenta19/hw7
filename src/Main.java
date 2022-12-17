@@ -8,6 +8,7 @@ public class Main {
         task6();
         task7();
         task8();
+        task9();
     }
 
     public static void task1() {
@@ -121,5 +122,15 @@ public class Main {
             }
         }
 
+    }
+    public static void task9() {
+        System.out.println("Задание 9");
+
+        int number = 2;
+        int multiplications = 0;
+        for (int i = 1; i <= 10; i++) {
+            multiplications = number * i;
+            System.out.println(number + "*" + i + " = " + multiplications);
+        }
     }
 }
